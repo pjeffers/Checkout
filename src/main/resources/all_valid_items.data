@@ -1,0 +1,22 @@
+# This data file defines the valid items used in the PriceBasket application
+
+#The order of columns is as follows:
+
+#Item Code, Item Description, Item Price(£)
+
+# THE FOLLOWING ARE FOR NOT ON THE HIGHSTREET
+001,Travel Card Holder,9.25
+002,Personalised cufflinks,45.00
+003,Kids T-shirt,19.95
+
+
+# THE FOLLOWING ARE FOR BJSS AND THE UNIT TESTS THEY SHOULD BE COMMENTED OUT
+# WHEN NOT ON THE HIGH STREET RUN THE APPLICATION THEY SHOULD BE COMMENTED IN WHEN RUNNING CheckoutTest
+Soup,Soup,0.65
+Bread,Bread,0.80
+Milk,Milk,1.30
+Apples,Apples,1.00
+
+#some additional test items comment these in to test
+#Eggs,Eggs,1.00
+#Cheese,Cheese,1.80

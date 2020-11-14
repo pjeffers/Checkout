@@ -1,0 +1,18 @@
+#The first line is ignored because it will normally be used as a header
+BAD_DISCOUNT1,,Apples,,,50
+#BAD_DISCOUNT2,,Apples,,,
+#BAD_DISCOUNT3,,,,,
+ 
+ 
+ 	
+# higher priority promotions are near the top and will have priority over lower priority promotions near
+# the bottom of the file which operate on the same target item. The order of columns is as follows: 
+#
+#promotion code,promotion Description, trigger/buy item code, buy number, discounted item code, promotion percentage
+Brd50,Buy 2 tins of soup and get a loaf of bread for half price,Soup,2,Bread,50
+App10,Apples 10% off,Apples,1,Apples,10
+
+#
+#some additional promotions for test purposes
+eggsBOGOF,Eggs buy one get one free, Eggs,2,Eggs,50
+Brd100,Buy 3 cheeses and get a loaf of bread free,Cheese,3,Bread,100

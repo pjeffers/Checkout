@@ -1,0 +1,14 @@
+# higher priority promotions are near the top of the file and will have priority over lower priority promotions near
+# the bottom of the file which operate on the same target item.  Once an item has been discounted it 
+# cannot be discounted again however any left over undiscounted items can be discounted by another promotion.
+# For example Brd100 below can only operate on bread which Brd50 has not discounted already.
+
+#The order of columns is as follows: 
+#
+#promotion code,promotion Description, trigger/buy item code, trigger/buy number, discounted item code, promotion percentage
+Brd50,Buy 2 tins of soup and get a loaf of bread for half price,Soup,2,Bread,50
+App10,Apples 10% off,Apples,1,Apples,10
+
+#some additional promotions for test purposes
+eggsBOGOF,Eggs buy one get one free, Eggs,2,Eggs,100
+Brd100,Buy 3 cheeses and get a loaf of bread free,Cheese,3,Bread,100

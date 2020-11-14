@@ -1,0 +1,18 @@
+#The order of columns is as follows:
+#code, description, price(£)
+
+# here are some bad item entries to check validqtion
+#BAD_ITEM1,,1.00
+BAD_ITEM2,Apples,
+#BAD_ITEM3,,
+#,,
+ 
+# Good item entries 
+Apples,Apples,1.00
+Bread,Bread,0.80
+Milk,Milk,1.30
+Soup,soup,0.65
+#
+#some additional test items. Comment these in to test.
+#Eggs,Eggs,1.00
+#Cheese,Cheese,1.80
